@@ -1,0 +1,25 @@
+#header nav {
+  background: none;
+
+  li {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  li.current a {
+    background: linear_gradient(#749619, #527f0e);
+    background-color: #659e10;
+    border: 1px solid #527f0e;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,.2), 0px 1px 0px rgba(0,0,0,.0);
+  }
+
+  li {
+    li {
+      display: none;
+    }
+  }
+
+  li.current li {
+    display: inline-block;
+  }
+}

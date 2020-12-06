@@ -1,0 +1,20 @@
+- title: Home
+  url: /
+
+- title: Laundry
+  url: /laundry/
+  sublinks:
+    - title: Smells
+      url: /laundry/smells
+    - title: Stains
+      url: /laundry/stains
+
+- title: Gis
+  url: /gis/
+  sublinks:
+    - title: Sizing
+      url: /gis/sizing
+    - title: Materials
+      url: /gis/materials
+    - title: Budget
+      url: /gis/budget
