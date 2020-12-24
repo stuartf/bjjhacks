@@ -1,16 +1,14 @@
 <!-- This finds the current page so it can be highlighted. -->
 
 {% for entry in site.data.navigation %}
-  {% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
-  {% if fullurl == page.url %}
-    {% assign current_page = fullurl %}
+  {% if entry.url == page.url %}
+    {% assign current_page = entry.url %}
     {% break %}
-  {% elsif page.url contains fullurl %}
-    {% assign current_page = fullurl %}
+  {% elsif page.url contains entry.url %}
+    {% assign current_page = entry.url %}
     {% for subentry in entry.sublinks %}
-      {% capture fullurl %}{{ site.baseurl }}{{ subentry.url }}{% endcapture %}
-      {% if fullurl == page.url %}
-        {% assign current_sub = fullurl %}
+      {% if subentry.url == page.url %}
+        {% assign current_sub = subentry.url %}
         {% break %}
       {% endif %}
     {% endfor %}

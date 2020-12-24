@@ -17,8 +17,8 @@ title: BJJ Hacks
 email: seriouslyuguys@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A site for collecting knowledge that is useful for BJJ but isn't technique
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/bjjhacks" # the subpath of your site, e.g. /blog
+url: "https://stuartf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: seriouslyuguys
 github_username:  stuartf
 
